@@ -1,0 +1,10 @@
+Attribute VB_Name = "Module2"
+Sub Format():
+    For Each ws In Worksheets
+        
+    'ws.Range("K:K").NumberFormat = "0.00%"
+    'ws.Range("Q2").NumberFormat = "0.00%"
+    'ws.Range("Q3").NumberFormat = "0.00%"
+    
+    Next ws
+End Sub
